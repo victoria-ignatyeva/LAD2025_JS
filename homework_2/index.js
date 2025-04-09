@@ -1,5 +1,5 @@
 // 1
-console.log("кот" > "код") // true 
+console.log("кот" > "код"); // true
 
 //"к" = "к"
 //"о" = "о"
@@ -11,40 +11,40 @@ console.log("кот".charCodeAt(2) > "код".charCodeAt(2)); //true
 //2
 console.log("2" + 2 * "2"); //24
 
-console.log("2" * 2); //4 
+console.log("2" * 2); //4
 // при умножении строка преобразуется в число
 
-console.log("2" + 4); // "24" 
+console.log("2" + 4); // "24"
 // операция сложения со строкой вызывает конкатенацию строк, число 4 преобразуется в строку
 
 console.log(typeof ("2" + 4)); //string
 
-//3 
-console.log(undefined == null); //true 
+//3
+console.log(undefined == null); //true
 //При нестрогом равенстве == эти значения равны друг другу и не равны никаким другим значениям. Это специальное правило языка
 
 //4
-console.log(undefined != null); // false 
+console.log(undefined != null); // false
 // != нестрогое неравенство
 
 //5
-console.log(null == 0); //false 
+console.log(null == 0); //false
 // null считается равным только самому себе и undefined
 
 //6
-console.log(2 > "3") // false
+console.log(2 > "3"); // false
 //Происходит неявное преобразование типов, строка "3" преобразуется в число 3
 
 //7
 console.log(null - false + true); //1
-//null преобразуется в 0, false в 0; true в 1 
+//null преобразуется в 0, false в 0; true в 1
 
 //8
-console.log(1/"l"); //NaN
+console.log(1 / "l"); //NaN
 // "l" не числовое значение, JavaScript не может преобразовать его в число. Деление числа на нечисловое значение дает NaN
 
 //9
-console.log("2"*"3"); //6
+console.log("2" * "3"); //6
 //При умножении строки преобразуются в числа
 
 //10
@@ -57,16 +57,16 @@ console.log("l" + 4 + 5); // "145"
 //Когда в выражении с + встречается строка, все следующие операнды превращаются в строки
 
 //12
-console.log("4" - 2) //2
+console.log("4" - 2); //2
 //-, *, / и % преобразуют строки в числа
 
 //13
 console.log("4" - "4x"); // NaN
-//При попытке преобразовать "4x" в число получается NaN 
+//При попытке преобразовать "4x" в число получается NaN
 //Любое арифметическое действие с NaN тоже возвращает NaN
 
 //14
-console.log("23"== 23); //true
+console.log("23" == 23); //true
 //нестрогое равенство преобразует строку "23" в число 23
 
 //15
@@ -74,7 +74,7 @@ console.log(null == false); //false
 //null равен только undefined
 
 //16
-console.log(" -4 "/ 0 + 1) //-Infinity 
+console.log(" -4 " / 0 + 1); //-Infinity
 
 //17
 console.log(null + 1); //1
@@ -85,7 +85,7 @@ console.log(undefined + null); //NaN
 //undefined преобразуется в NaN
 
 //19
-console.log(1 === "1") //false
+console.log(1 === "1"); //false
 //Строгие операторы === и !== проверяют и тип, и значение.
 
 //20
@@ -93,5 +93,5 @@ console.log("2" > 10); //false
 //в случае сравнения строки с числом, JavaScript преобразует строку в число
 
 //21
-console.log(NaN == undefined) //false
+console.log(NaN == undefined); //false
 //NaN не равно ничему, включая себя
